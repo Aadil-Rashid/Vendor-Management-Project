@@ -5,9 +5,12 @@ To authenticate, you can use the token below as a **Bearer token** to access the
 
 TOKEN = **"e{yJ0[eXAiOiJKV1#QiL!CJhbGc$=i><]OiJ@IUz}I1NiJ9"**
 
+
 ## Postman Workspace
 Postman workspace ID: **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 Postman_workspace_link : [Debug Url](https://www.postman.com/lively-meadow-351188/workspace/d0a828c2-4c8a-4183-b64b-7dce61dfe29d/collection/17525478-b38d2f2e-56d7-4413-a338-2eb01e65ac40?action=share&creator=17525478)
+
+
 
 ## All API Routes
 **base_url** = http://127.0.0.1:8000
