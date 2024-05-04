@@ -12,6 +12,9 @@ Postman workspace ID: **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 **base_url** = http://127.0.0.1:8000
 
 ### 1- Vendor Profile Management Routes
+
+>> Postman_doc_link : [Debug Url](https://documenter.getpostman.com/view/17525478/2sA3JGeiPT)
+
 - **GET**: List all vendors
     - **base_url**/api/vendors/
 
@@ -29,6 +32,8 @@ Postman workspace ID: **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 
 
 ### 2- Purchase Order Tracking
+>> Postman_doc_link : [Debug Url](https://documenter.getpostman.com/view/17525478/2sA3JGeiPW)
+
 - **GET**: List all purchase orders
     - **base_url**/api/purchase_orders/
 
@@ -46,6 +51,8 @@ Postman workspace ID: **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 
 
 ### 3- Vendor Performance Evaluation
+>> Postman_doc_link : [Debug Url](https://documenter.getpostman.com/view/17525478/2sA3JGeiPX)
+
 - **GET**: View performance evaluation for a specific vendor
     - **base_url**/api/vendors/**<vendor_id>**/performance/
 
