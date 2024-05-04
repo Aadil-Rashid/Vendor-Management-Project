@@ -21,14 +21,23 @@ Postman workspace ID **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 ### 1- Vendor Profile Management Routes
 - **GET**: List all vendors
 
-    **domain**/api/vendors/    
+    -- **domain**/api/vendors/    
 
 - **POST**: Create a new vendor
-    **domain**/api/vendors/  
+
+    -- **domain**/api/vendors/  
+
+- **GET**: Retrieve a specific vendor's details
     
-- **GET** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Retrieve a specific vendor's details)
-- **PUT** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Update a vendor's details.)
-- **DELETE** http://127.0.0.1:8000/api/vendors/<vendor_id>/ (Delete a vendor)
+    -- **domain**/api/vendors/<vendor_id>/ 
+
+- **PUT**: Update a vendor's details
+    
+    -- **domain**/api/vendors/<vendor_id>/ 
+
+- **DELETE**: Delete a vendor
+    
+    -- **domain**/api/vendors/<vendor_id>/
 
 
 ### 2- Purchase Order Tracking
