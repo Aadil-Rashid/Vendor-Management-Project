@@ -16,12 +16,16 @@ Postman workspace ID **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 
 
 # ALL API Routes
-domain = http://127.0.0.1:8000
+**domain** = http://127.0.0.1:8000
 
 ### 1- Vendor Profile Management Routes
-- **GET** :List all vendors
-    http://127.0.0.1:8000/api/vendors/    
-- **POST** http://127.0.0.1:8000/api/vendors/   (Create a new vendor)
+- **GET**: List all vendors
+
+    **domain**/api/vendors/    
+
+- **POST**: Create a new vendor
+    **domain**/api/vendors/  
+    
 - **GET** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Retrieve a specific vendor's details)
 - **PUT** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Update a vendor's details.)
 - **DELETE** http://127.0.0.1:8000/api/vendors/<vendor_id>/ (Delete a vendor)
