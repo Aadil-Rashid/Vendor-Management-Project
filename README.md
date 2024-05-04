@@ -16,17 +16,18 @@ Postman workspace ID **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 
 
 # ALL API Routes
+domain = http://127.0.0.1:8000
 
-
-## 1- Vendor Profile Management Routes
-- **GET** http://127.0.0.1:8000/api/vendors/    (List all vendors.)
+### 1- Vendor Profile Management Routes
+- **GET** :List all vendors
+    http://127.0.0.1:8000/api/vendors/    
 - **POST** http://127.0.0.1:8000/api/vendors/   (Create a new vendor)
 - **GET** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Retrieve a specific vendor's details)
 - **PUT** http://127.0.0.1:8000/api/vendors/<vendor_id>/    (Update a vendor's details.)
 - **DELETE** http://127.0.0.1:8000/api/vendors/<vendor_id>/ (Delete a vendor)
 
 
-## 2- Purchase Order Tracking
+### 2- Purchase Order Tracking
 - **GET** http://127.0.0.1:8000/api/purchase_orders/
 - **POST** http://127.0.0.1:8000/api/purchase_orders/
 - **GET** http://127.0.0.1:8000/api/purchase_orders/<purchase_orders_id>/
@@ -34,6 +35,6 @@ Postman workspace ID **d0a828c2-4c8a-4183-b64b-7dce61dfe29d**
 - **DELETE** http://127.0.0.1:8000/api/purchase_orders/<purchase_orders_id>/
 
 
-## 3- Vendor Performance Evaluation
+### 3- Vendor Performance Evaluation
 - **GET** http://127.0.0.1:8000/api/vendors/<vendor_id>/performance/
 - **POST** http://127.0.0.1:8000/api/purchase_orders/<purchase_orders_id>/acknowledge/
