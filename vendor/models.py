@@ -79,8 +79,8 @@ def update_historical_performance(sender, instance, created, **kwargs):
 def pre_save_purchase_order(sender, instance, **kwargs):
 
     with transaction.atomic():
-        old_instance = PurchaseOrder.objects.get(id=instance.id)
+        old_instance = PurchaseOrder.objects.filter(id=instance.id).first()
 
-        if old_instance.status != instance.status:
+        if old_instance and old_instance.status != instance.status:
             HistoricalPerformance.objects.update_fulfillment_rate_field(
                 instance)
